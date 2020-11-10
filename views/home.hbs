@@ -28,7 +28,7 @@
                 </form>
             </div>
 
-        <br/><br>
+        <br/>
         <table>
             <thead>
                 <tr>
@@ -38,6 +38,7 @@
                     <th>TTL</th>
                     <th>GOLONGAN DARAH</th>
                     <th>TELEPON</th>
+                    <th>AKSI</th>
                 </tr>
             </thead>
             <tbody>
@@ -49,6 +50,7 @@
                         <td>{{ TTL }}</td>
                         <td>{{ GOLONGAN_DARAH }}</td>
                         <td>{{ TELEPON }}</td>
+                        <td><a href="/hapus-NAMA/{{ NIK }}"><button>HAPUS</button></a></td>
                     </tr>
                 {{/each}}
             </tbody>
